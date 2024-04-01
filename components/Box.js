@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { View, Text } from 'react-native';
 
-const Box = () => {
+export default function componentName() {
   return (
-    <div>
-      
-    </div>
-  )
+    <View>
+      <Text></Text>
+     </View>
+  );
 }
 
-export default Box
